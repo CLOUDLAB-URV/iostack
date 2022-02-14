@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>IOStack - News</title>
+		<description><![CDATA[Software-Defined Storage for Big Data]]></description>
+		<link>http://iostack.eu/news</link>
+		<lastBuildDate>Mon, 14 Feb 2022 09:45:10 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://iostack.eu/news?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>IOStack results and impact</title>
+			<link>http://iostack.eu/news/17-iostack-results-and-impact</link>
+			<guid isPermaLink="true">http://iostack.eu/news/17-iostack-results-and-impact</guid>
+			<description><![CDATA[<div class="feed-description"><p><span style="font-size: 12.16px;">The <strong>H2020</strong> <strong>IOStack</strong> project has come to an end in December 2017 and has had a successful Final Review in Brussels in February 2018.</span></p>
+<p>The project has produced outstanding results in the field of <strong>Software Defined Storage</strong> technologies to improve<strong> Big Data Analytics</strong> services. In particular, IOStack has proposed the first <strong>Software Defined Storage architecture</strong> (<a href="https://www.usenix.org/conference/fast17/technical-sessions/presentation/gracia-tinedo">FAST’17</a>) including a well defined <strong>filter framework</strong> in the data plane. We created open source <strong>SDS toolkits for Object Storage</strong> (<a href="http://crystal-sds.org">Crystal</a>) and <strong>Block Storage</strong> (<a href="https://mpstor.github.io/Konnector/">Konnector</a>) implementing the filter framework at both ends of the I/O stack.</p>
+<p><strong>Storage Filters</strong> are a relevant outcome of this project.  We can define a filter as a piece of code that a system administrator can inject into the data plane to perform custom computations on incoming/outgoing I/O requests. Filters can be used to implement <strong>computation close to the data</strong> (compression, selections, ETLs), <strong>data management</strong> (caching, prefetching), or even <strong>resource management</strong> like bandwidth differentiation. </p>
+<p>We demonstrated filter technologies in the server side (<a href="https://wiki.openstack.org/wiki/Storlets">Storlets</a> in Object Stores) and in the client side (Block storage filters, Spark File Filters, File System filters). Thanks to computation close to the data, data reduction and data indexing techniques, the project showcased <strong>significant performance improvements</strong> (50x, 35x, 18x) in data analytics. We outline in <a href="http://iostack.eu/deliverables/download/3-deliverables/29-d2-4-reference-implementation">D2.4</a> a list of<strong> Key Performance Indicators</strong> like data access throughput, application time speedup and communication costs among others.</p>
+<p>Another relevant result is related to data analytics over Cloud Object storage repositories. Capacity Stores are becoming the standard infrastructure for data analytics in cloud environments thanks to their scalability and low cost. Our improvements in data connectors (<a href="https://github.com/SparkTC/stocator">Stocator</a>) and data throughput (filters) will become mainstream in the next years in many different settings. Object Stores augmented with indexing technologies may effectively compete with NoSQL databases in many scenarios of unstructured or semi-structured data with flexible schemas.</p>
+<p>The project has three major use cases where we validated our results: <strong>Energy data management</strong> from smart meters (<a href="http://www.gridpocket.com/">GridPocket</a>), <strong>Automotive sector</strong> (<a href="http://www.applusidiada.com/en/">Idiada</a>), and <strong>Infrastructure providers</strong> (<a href="https://www.arctur.si/">Arctur</a>). But the potential scenarios for IOStack technologies go beyond these three ones. </p>
+<p>Let’s enumerate some settings where IOStack results may become very relevant in the next years:</p>
+<ul>
+<li><strong style="font-size: 12.16px;">Mobile Edge Computing, Smart Cities, IoT</strong><span style="font-size: 12.16px;">: Computation in edge devices is an increasing trend that is completely aligned with the filtering mechanisms on data flows implemented in IOStack. Many devices close to the edge receive data from sensors, that can be filtered there before communication with cloud services. The transparent interception on flows thanks to the data plane simplifies the management of this edge data flows and computations. Smart cities and Internet of Things scenarios are, in this line, ideal candidates for the combination of Cloud technologies and edge computing devices. These technologies will benefit from IOStack contributions in the next years.</span></li>
+<li><strong>BioInformatics, GeoSpatial data</strong>:  In settings with large unstructured data sets like genomics, bioinformatics, geospatial, or satellite data, the technologies of IOStack (object stores, SDS, computation close to the data, filters) will become pivotal in the next years. Many of these fields ever growing datasets face challenging data management and analytics problems that IOStack is already addressing. Downloading this information will be no longer feasible, and computation close to the data located in cloud object stores will become the prevalent data model in the next years.</li>
+<li><strong>Digital Video, Image Recognition and Streaming</strong>: The multimedia ecosystem is already accounting from the majority of traffic in Internet. In the next years, we will see UltraHD and Immersive media content formats that all require resolutions beyond UHD. This will require expensive computing resources for encoding and transcoding large data streams. Again, IOStack is in a privileged position to offer advanced solutions in this challenging ecosystem.</li>
+</ul></div>]]></description>
+			<author>iostackproject@gmail.com (Super User)</author>
+			<category>Blog entry</category>
+			<pubDate>Thu, 15 Feb 2018 15:29:49 +0000</pubDate>
+		</item>
+		<item>
+			<title>Horizon 2020: Project SUNFISH</title>
+			<link>http://iostack.eu/news/16-sunfish</link>
+			<guid isPermaLink="true">http://iostack.eu/news/16-sunfish</guid>
+			<description><![CDATA[<div class="feed-description"><div style="margin-top: 14pt; margin-bottom: 14pt;">Horizon 2020 includes a large group of innovative projects with one common objective: to develop infrastructures, methods and tools for high performance, adaptive cloud applications and services that go beyond the current capabilities, strengthening the competitive position of the European industry.</div>
+<div style="margin-top: 14pt; margin-bottom: 14pt;">Within the scope of federated cloud services, H2020 <a href="http://www.sunfishproject.eu/">SUNFISH project</a> <span>offers a service to federate private and public clouds, enabling them to exchange data and services in a secure and controlled manner, based on a “democratic” governance model: no federation member rules on others. </span><span>More in details, SUNFISH conceives, designes and implementes Federation-as-a-Service (FaaS), a secure-by-design cloud interoperability solution based on blockchain technology.</span></div>
+<div style="margin-top: 14pt; margin-bottom: 14pt;"><span>This service is realised via a software platform, named “SUNFISH Platform”, whose forming components represent essential parts of the overall functioning. </span><span>The SUNFISH Platform is a modular software solution that enables the dynamic and secure creation of cloud federations and their management.</span></div>
+<div style="margin-top: 14pt; margin-bottom: 14pt;"><span>Its main functionalities are:</span></div>
+<ul style="margin-top: 14pt; margin-bottom: 14pt;">
+<li><span><strong>Dynamic cloud management</strong></span><span>. A dynamic federation of clouds and their related services, with optimal service level and workload;</span></li>
+<li><span><strong>Democratic governance</strong></span><span>. An innovative cloud federation governance supporting trustless coalitions, as none of the federated organisations rules on the others, thanks to the service ledger empowering the governance;</span></li>
+<li><span><strong>Data security</strong></span><span>. Advanced, innovative privacy-preserving services enforcing access control and monitoring to protect provisioning of federated services and sharing of data.</span></li>
+</ul>
+<p><span>The SUNFISH project has developed three concrete deployment examples, through three different use cases. </span><span>These use cases are based on data and infrastructures made available by 3 public sector Consortium partners, which belong respectively to Italy, Malta and the UK.</span></p>
+<div style="margin-top: 14pt; margin-bottom: 14pt;"><span>For more information, please give a look to CloudWatch's <a href="http://www.cloudwatchhub.eu/service-offer-catalogue/sunfish-secure-information-sharing-federated-heterogeneous-private-clouds">Service Offer Catalogue</a>.<br /></span></div></div>]]></description>
+			<author>iostackproject@gmail.com (Super User)</author>
+			<category>Blog entry</category>
+			<pubDate>Fri, 17 Nov 2017 09:28:42 +0000</pubDate>
+		</item>
+		<item>
+			<title>OpenIO collaborates with IOStack</title>
+			<link>http://iostack.eu/news/15-openio</link>
+			<guid isPermaLink="true">http://iostack.eu/news/15-openio</guid>
+			<description><![CDATA[<div class="feed-description"><p>We are now entering the 3rd year of the project. It is time to disseminate the outcomes of IOStack and let the European Big Data and storage ecosystem to benefit from them.</p>
+<p>This is the case of a new collaborator with the IOStack project: <a href="http://www.openio.io/" target="_blank" title="OpenIO">OpenIO</a>. OpenIO is a French company specialized in software-defined storage and scalability challenges. OpenIO converges an application grid to run computations on top of an object storage platform. But wait, there is even more. They adopt an open source model; this means that the code of OpenIO is available to the open source community!</p>
+<p>As you can see, there are many points in common with our objectives in the project. But now that OpenIO is seriously approaching Big Data workloads, our collaboration on object storage technologies was unavoidable (e.g., <a href="http://crystal-sds.org/" target="_blank" title="Crystal SDS">Crystal</a>, <a href="https://github.com/SparkTC/stocator" target="_blank" title="Stocator">Stocator</a>). For a great explanation on this story, we refer to the post of <a href="http://www.openio.io/corporate/big-data-object-storage-openio-and-iostack" target="_blank" title="OpenIO blog">OpenIO's blog</a>.</p>
+<p>This can be the beginning of a beautiful partnership :)</p></div>]]></description>
+			<author>iostackproject@gmail.com (Super User)</author>
+			<category>Blog entry</category>
+			<pubDate>Tue, 14 Mar 2017 18:06:15 +0000</pubDate>
+		</item>
+		<item>
+			<title>IOStack exploitation: Use cases</title>
+			<link>http://iostack.eu/news/14-exploitation</link>
+			<guid isPermaLink="true">http://iostack.eu/news/14-exploitation</guid>
+			<description><![CDATA[<div class="feed-description"><p>We are happy to announce that the IOStack toolkit prototype is starting its path towards exploitation. We invite you to see the videos from our use-case companies to discover how IOStack is making their daily operation with <span style="font-size: 12.16px;">analytics frameworks </span><span style="font-size: 12.16px;">more simple and efficient.</span></p>
+<p> </p>
+<h1>GridPocket Use case: Smart Energy Grid</h1>
+<p><iframe src="https://www.youtube.com/embed/47_fDBzMZQQ" frameborder="0" width="280" height="157"></iframe></p>
+<p> </p>
+<h1>Idiada Use case: Automotive Company</h1>
+<p><iframe src="https://www.youtube.com/embed/n5VvG76sUos" frameborder="0" width="280" height="157"></iframe></p>
+<p> </p></div>]]></description>
+			<author>iostackproject@gmail.com (Super User)</author>
+			<category>Blog entry</category>
+			<pubDate>Mon, 19 Sep 2016 11:56:56 +0000</pubDate>
+		</item>
+		<item>
+			<title>Welcome to IOStack</title>
+			<link>http://iostack.eu/news/5-welcome-to-iostack</link>
+			<guid isPermaLink="true">http://iostack.eu/news/5-welcome-to-iostack</guid>
+			<description><![CDATA[<div class="feed-description"><p style="margin: 10px 0px; padding: 0px; border: 0px; color: #555555; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 19.2000007629395px; text-align: justify;"><span style="line-height: 19.2000007629395px; text-align: justify;"><strong>IOStack</strong> is an European research project funded by the H2020 initiative. The project is a consortium of several European industrial and research partners including University of Rovira i Virgili, IBM, MPSTOR, Eurocom and the BARCELONA SUPERCOMPUTING CENTER. A number of the partners will act as users of the system including IDIADA (Automotive), GRIDPOCKET (IOT) and ARCTUR (HPC). </span></p>
+<p style="margin: 10px 0px; padding: 0px; border: 0px; color: #555555; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 19.2000007629395px; text-align: justify;"><span style="line-height: 19.2000007629395px; text-align: justify;"><strong>IOStack</strong> is designed for deployments of data analytics in virtual environments. Virtual environments allow very flexible deployment of analytics frameworks but have less performance than bare metal deployments. <strong>IOStack</strong> will focus on how <strong>Software Defined Storage</strong> can use its knowledge of the cloud topology and the real time dynamic characteristics of the cloud to deploy analytics jobs that will run and complete within guaranteed SLAs and timescales. </span></p>
+<p style="margin: 10px 0px; padding: 0px; border: 0px; color: #555555; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 19.2000007629395px; text-align: justify;"><span style="line-height: 19.2000007629395px; text-align: justify;">The SDS knowledge of the static topology allows compute and storage locality to be optimized, understanding the dynamic load of the cloud allows a further optimization of which resources, paths and devices should be used in a given workload.</span></p>
+<p style="margin: 10px 0px; padding: 0px; border: 0px; color: #555555; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 19.2000007629395px; text-align: justify;"> </p>
+</div>]]></description>
+			<author>edgar.zamora@urv.cat (Edgar Zamora-Gómez)</author>
+			<category>Blog entry</category>
+			<pubDate>Thu, 26 Feb 2015 15:05:20 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
