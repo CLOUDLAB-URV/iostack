@@ -1,0 +1,170 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+.ja-megamenu a.over, .ja-megamenu a.active { color: #333; }
+
+ul.megamenu { margin: 20px; }
+/* 0v - 0 and below
+-----------------------------------*/
+.ja-megamenu ul.level0 {
+	font-family: 'PT Sans',sans-serif;
+}
+
+.ja-megamenu ul.level0 > li.mega > a.mega {
+	color: #fff;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #111;
+	border-left: 1px solid #333;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+.ja-megamenu ul.level0 > li.mega > a.over { background: #000; }
+
+.ja-megamenu ul.level0 > li.active > a.mega {
+	background: url(../../images/grad.png) repeat-x left top #e55f43;
+	border: 1px solid #f54f27;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.ja-megamenu ul.level0 li.haschild > a.mega > span.menu-title, 
+.ja-megamenu ul.level0 li.haschild-over > a.mega > span.menu-title {
+	background-image: url(../../images/arrow3.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+.ja-megamenu ul.level0 li.active.haschild > a.mega > span.menu-title,
+.ja-megamenu ul.level0 li.active.haschild-over > a.mega > span.menu-title {
+	background-image: url(../../images/arrow2.png);
+}
+
+.ja-megamenu ul.level0 li.mega .has-image {
+	background-position: left 10px;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega { background: #101010; border: 1px solid #1a1a1a; margin-bottom: 8px; }
+
+.ja-megamenu ul.level1 li.over,
+.ja-megamenu ul.level1 li.active {
+	border-color: #f74f27;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9795b), to(#e65c3f)); /* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #f9795b, #e65c3f); /* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #f9795b, #e65c3f); /* IE 10 */
+	background: -ms-linear-gradient(top, #f9795b, #e65c3f); /* Opera 11.10+ */
+	background: -o-linear-gradient(top, #f9795b, #e65c3f);
+	background-color: #f9795b;
+}
+
+.ja-megamenu ul.level1 li.last { margin-bottom: 0; }
+
+.ja-megamenu ul.level1 li.mega a.mega { border: 0; color: #999; }
+
+.ja-megamenu ul.level1 li.over a.over,
+.ja-megamenu ul.level1 li.active a.active { color: #fff; }
+
+.ja-megamenu ul.level1 li.haschild > a.mega > span.menu-title, 
+.ja-megamenu ul.level1 li.active.haschild > a.mega > span.menu-title {
+	background-image: url(../../images/arrow4.png);
+}
+
+.ja-megamenu ul.level1 li.haschild-over > a.mega > span.menu-title,
+.ja-megamenu ul.level1 li.active.haschild-over > a.mega > span.menu-title {
+	background-image: url(../../images/arrow5.png);
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background: #000;
+	border-top: 0;
+	color: #333;
+}
+
+.ja-megamenu .level1 .childcontent-inner { }
+
+.ja-megamenu .childcontent ul.megamenu .ja-moduletable {
+	margin: 0;
+	color: #333;
+}
+
+.ja-megamenu .childcontent .ja-moduletable .ja-box-ct { padding: 0; }
+
+.ja-megamenu .childcontent ul.megamenu .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px dotted #ccc;
+	text-transform: uppercase;
+}
+
+/* Grouped --- */
+.ja-megamenu .megacol.column2 {
+	background: url(../../images/mega-line.gif) repeat-y left top;
+}
+
+.ja-megamenu ul.level1 li.group {
+	background: none;
+	margin: 0;
+	border: 0;
+}
+
+.ja-megamenu ul.level1 li.group a.group {
+	padding: 0 0 10px;
+}
+
+.ja-megamenu .group-title { }
+
+.ja-megamenu .group-title .menu-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	color: #999;
+	padding-left: 0 !important;
+}
+
+.ja-megamenu .group-content ul.megamenu {
+	margin: 0;
+}
+
+.ja-megamenu .group-content ul.level1 li.mega {
+	background: none;
+	filter: none;
+	-ms-filter: none;
+	border: 0;
+	margin: 0;
+}
+
+.ja-megamenu .group-content ul.level1 li.mega a.mega {
+	padding: 5px 0;
+}
+
+.megamenu p.readmore {
+	margin: 10px 0;
+}
+
+.megamenu p.readmore a {
+	background-image: url(../../images/readmore-hover.png);
+	color: #d05338;
+}

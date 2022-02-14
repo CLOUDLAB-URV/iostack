@@ -1,0 +1,47 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA T3V2 Blank Template
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+ 
+/* COMMON STYLE
+--------------------------------------------------------- */
+body.contentpane {
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+}
+
+body.contentpane a { color: #881300; text-decoration: none; }
+
+body.contentpane a:hover, body.contentpane a:active, body.contentpane a:focus { text-decoration: underline; color: #333; }
+
+body.contentpane h1.contentheading, body.contentpane h2.contentheading, body.contentpane .contentheading {
+    font-weight: normal;
+    margin: 0 0 25px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+body.contentpane ul.actions li a {
+	background: url("../images/system/printButton.png") no-repeat left top;
+	 vertical-align: top;
+	 width: 16px;
+	 height: 16px;
+	 text-decoration: none; 
+	 font-size: 0px;
+	 text-indent: -9999em;
+	 display: inline-block;
+}
+
+body.contentpane img[align="left"] {
+	margin-right: 10px;
+}
+
+body.contentpane img[align="right"] {
+	margin-left: 10px;
+}

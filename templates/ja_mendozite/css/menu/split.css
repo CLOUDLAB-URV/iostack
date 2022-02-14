@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+#ja-splitmenu {
+	font-family: 'PT Sans',sans-serif;
+}
+
+#ja-splitmenu > ul > li > a {
+	color: #fff;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #111;
+	border-left: 1px solid #333;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+#ja-splitmenu > ul > li > a:hover{ background: #000; }
+
+#ja-splitmenu > ul > li.active > a {
+	background: url(../../images/grad.png) repeat-x left top #e55f43;
+	border: 1px solid #f54f27;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#ja-splitmenu > ul > li.haschild > a.haschild > span.menu-title, 
+#ja-splitmenu > ul > li.haschild > a.haschild:hover > span.menu-title {
+	background-image: url(../../images/arrow3.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+#ja-splitmenu > ul > li.active.haschild > a > span.menu-title,
+#ja-splitmenu > ul > li.active.haschild > a.haschild:hover > span.menu-title {
+	background-image: url(../../images/arrow2.png);
+}
+
+/* Sub Nav ---*/
+#ja-subnav { background-color: #000; padding: 0 10px; }
+
+#ja-subnav ul.active > li > a {
+	color: #7d7d7d;
+}
+
+#ja-subnav ul.active > li > a:hover,
+#ja-subnav ul.active > li > a.active:hover,
+#ja-subnav ul.active > li > a.active {
+	color: #d05338;
+}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	background: #000;
+}
+
+#ja-subnav ul li ul li {
+	padding: 10px 20px;
+}
+
+#ja-subnav ul li ul li a {
+	color: #545454;
+}
+
+#ja-subnav ul li ul li a:hover,
+#ja-subnav ul li ul li a:focus,
+#ja-subnav ul li ul li a:active,
+#ja-subnav ul li.active a.active, 
+#ja-subnav ul li.active a.active:hover, 
+#ja-subnav ul li.active a.active:active, 
+#ja-subnav ul li.active a.active:focus {
+	color: #fff;
+}
+
+#ja-subnav ul li ul li:first-child {
+	border: 0;
+}
+
+#ja-subnav ul li.haschild a.haschild span.menu-title {
+	background-image: url(../../images/arrow4.png);
+}
+
+#ja-subnav ul li.haschild a.haschild:hover span.menu-title {
+	background-image: url(../../images/arrow3.png);
+}

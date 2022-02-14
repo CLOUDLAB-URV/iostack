@@ -4,16 +4,16 @@
 	<title type="text">IOStack - News</title>
 	<subtitle type="text">Software-Defined Storage for Big Data</subtitle>
 	<link rel="alternate" type="text/html" href="http://iostack.eu"/>
-	<id>http://iostack.eu/news</id>
+	<id>news</id>
 	<updated>2022-02-14T09:45:10+00:00</updated>
 	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
-	<link rel="self" type="application/atom+xml" href="http://iostack.eu/news?format=feed&amp;type=atom"/>
+	<link rel="self" type="application/atom+xml" href="news?format=feed&amp;type=atom"/>
 	<entry>
 		<title>IOStack results and impact</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/news/17-iostack-results-and-impact"/>
+		<link rel="alternate" type="text/html" href="news/17-iostack-results-and-impact"/>
 		<published>2018-02-15T15:29:49+00:00</published>
 		<updated>2018-02-15T15:29:49+00:00</updated>
-		<id>http://iostack.eu/news/17-iostack-results-and-impact</id>
+		<id>news/17-iostack-results-and-impact</id>
 		<author>
 			<name>Super User</name>
 			<email>iostackproject@gmail.com</email>
@@ -21,7 +21,7 @@
 		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12.16px;&quot;&gt;The &lt;strong&gt;H2020&lt;/strong&gt; &lt;strong&gt;IOStack&lt;/strong&gt; project has come to an end in December 2017 and has had a successful Final Review in Brussels in February 2018.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The project has produced outstanding results in the field of &lt;strong&gt;Software Defined Storage&lt;/strong&gt; technologies to improve&lt;strong&gt; Big Data Analytics&lt;/strong&gt; services. In particular, IOStack has proposed the first &lt;strong&gt;Software Defined Storage architecture&lt;/strong&gt; (&lt;a href=&quot;https://www.usenix.org/conference/fast17/technical-sessions/presentation/gracia-tinedo&quot;&gt;FAST’17&lt;/a&gt;) including a well defined &lt;strong&gt;filter framework&lt;/strong&gt; in the data plane. We created open source &lt;strong&gt;SDS toolkits for Object Storage&lt;/strong&gt; (&lt;a href=&quot;http://crystal-sds.org&quot;&gt;Crystal&lt;/a&gt;) and &lt;strong&gt;Block Storage&lt;/strong&gt; (&lt;a href=&quot;https://mpstor.github.io/Konnector/&quot;&gt;Konnector&lt;/a&gt;) implementing the filter framework at both ends of the I/O stack.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Storage Filters&lt;/strong&gt; are a relevant outcome of this project.  We can define a filter as a piece of code that a system administrator can inject into the data plane to perform custom computations on incoming/outgoing I/O requests. Filters can be used to implement &lt;strong&gt;computation close to the data&lt;/strong&gt; (compression, selections, ETLs), &lt;strong&gt;data management&lt;/strong&gt; (caching, prefetching), or even &lt;strong&gt;resource management&lt;/strong&gt; like bandwidth differentiation. &lt;/p&gt;
-&lt;p&gt;We demonstrated filter technologies in the server side (&lt;a href=&quot;https://wiki.openstack.org/wiki/Storlets&quot;&gt;Storlets&lt;/a&gt; in Object Stores) and in the client side (Block storage filters, Spark File Filters, File System filters). Thanks to computation close to the data, data reduction and data indexing techniques, the project showcased &lt;strong&gt;significant performance improvements&lt;/strong&gt; (50x, 35x, 18x) in data analytics. We outline in &lt;a href=&quot;http://iostack.eu/deliverables/download/3-deliverables/29-d2-4-reference-implementation&quot;&gt;D2.4&lt;/a&gt; a list of&lt;strong&gt; Key Performance Indicators&lt;/strong&gt; like data access throughput, application time speedup and communication costs among others.&lt;/p&gt;
+&lt;p&gt;We demonstrated filter technologies in the server side (&lt;a href=&quot;https://wiki.openstack.org/wiki/Storlets&quot;&gt;Storlets&lt;/a&gt; in Object Stores) and in the client side (Block storage filters, Spark File Filters, File System filters). Thanks to computation close to the data, data reduction and data indexing techniques, the project showcased &lt;strong&gt;significant performance improvements&lt;/strong&gt; (50x, 35x, 18x) in data analytics. We outline in &lt;a href=&quot;deliverables/download/3-deliverables/29-d2-4-reference-implementation&quot;&gt;D2.4&lt;/a&gt; a list of&lt;strong&gt; Key Performance Indicators&lt;/strong&gt; like data access throughput, application time speedup and communication costs among others.&lt;/p&gt;
 &lt;p&gt;Another relevant result is related to data analytics over Cloud Object storage repositories. Capacity Stores are becoming the standard infrastructure for data analytics in cloud environments thanks to their scalability and low cost. Our improvements in data connectors (&lt;a href=&quot;https://github.com/SparkTC/stocator&quot;&gt;Stocator&lt;/a&gt;) and data throughput (filters) will become mainstream in the next years in many different settings. Object Stores augmented with indexing technologies may effectively compete with NoSQL databases in many scenarios of unstructured or semi-structured data with flexible schemas.&lt;/p&gt;
 &lt;p&gt;The project has three major use cases where we validated our results: &lt;strong&gt;Energy data management&lt;/strong&gt; from smart meters (&lt;a href=&quot;http://www.gridpocket.com/&quot;&gt;GridPocket&lt;/a&gt;), &lt;strong&gt;Automotive sector&lt;/strong&gt; (&lt;a href=&quot;http://www.applusidiada.com/en/&quot;&gt;Idiada&lt;/a&gt;), and &lt;strong&gt;Infrastructure providers&lt;/strong&gt; (&lt;a href=&quot;https://www.arctur.si/&quot;&gt;Arctur&lt;/a&gt;). But the potential scenarios for IOStack technologies go beyond these three ones. &lt;/p&gt;
 &lt;p&gt;Let’s enumerate some settings where IOStack results may become very relevant in the next years:&lt;/p&gt;
@@ -33,7 +33,7 @@
 		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12.16px;&quot;&gt;The &lt;strong&gt;H2020&lt;/strong&gt; &lt;strong&gt;IOStack&lt;/strong&gt; project has come to an end in December 2017 and has had a successful Final Review in Brussels in February 2018.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The project has produced outstanding results in the field of &lt;strong&gt;Software Defined Storage&lt;/strong&gt; technologies to improve&lt;strong&gt; Big Data Analytics&lt;/strong&gt; services. In particular, IOStack has proposed the first &lt;strong&gt;Software Defined Storage architecture&lt;/strong&gt; (&lt;a href=&quot;https://www.usenix.org/conference/fast17/technical-sessions/presentation/gracia-tinedo&quot;&gt;FAST’17&lt;/a&gt;) including a well defined &lt;strong&gt;filter framework&lt;/strong&gt; in the data plane. We created open source &lt;strong&gt;SDS toolkits for Object Storage&lt;/strong&gt; (&lt;a href=&quot;http://crystal-sds.org&quot;&gt;Crystal&lt;/a&gt;) and &lt;strong&gt;Block Storage&lt;/strong&gt; (&lt;a href=&quot;https://mpstor.github.io/Konnector/&quot;&gt;Konnector&lt;/a&gt;) implementing the filter framework at both ends of the I/O stack.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Storage Filters&lt;/strong&gt; are a relevant outcome of this project.  We can define a filter as a piece of code that a system administrator can inject into the data plane to perform custom computations on incoming/outgoing I/O requests. Filters can be used to implement &lt;strong&gt;computation close to the data&lt;/strong&gt; (compression, selections, ETLs), &lt;strong&gt;data management&lt;/strong&gt; (caching, prefetching), or even &lt;strong&gt;resource management&lt;/strong&gt; like bandwidth differentiation. &lt;/p&gt;
-&lt;p&gt;We demonstrated filter technologies in the server side (&lt;a href=&quot;https://wiki.openstack.org/wiki/Storlets&quot;&gt;Storlets&lt;/a&gt; in Object Stores) and in the client side (Block storage filters, Spark File Filters, File System filters). Thanks to computation close to the data, data reduction and data indexing techniques, the project showcased &lt;strong&gt;significant performance improvements&lt;/strong&gt; (50x, 35x, 18x) in data analytics. We outline in &lt;a href=&quot;http://iostack.eu/deliverables/download/3-deliverables/29-d2-4-reference-implementation&quot;&gt;D2.4&lt;/a&gt; a list of&lt;strong&gt; Key Performance Indicators&lt;/strong&gt; like data access throughput, application time speedup and communication costs among others.&lt;/p&gt;
+&lt;p&gt;We demonstrated filter technologies in the server side (&lt;a href=&quot;https://wiki.openstack.org/wiki/Storlets&quot;&gt;Storlets&lt;/a&gt; in Object Stores) and in the client side (Block storage filters, Spark File Filters, File System filters). Thanks to computation close to the data, data reduction and data indexing techniques, the project showcased &lt;strong&gt;significant performance improvements&lt;/strong&gt; (50x, 35x, 18x) in data analytics. We outline in &lt;a href=&quot;deliverables/download/3-deliverables/29-d2-4-reference-implementation&quot;&gt;D2.4&lt;/a&gt; a list of&lt;strong&gt; Key Performance Indicators&lt;/strong&gt; like data access throughput, application time speedup and communication costs among others.&lt;/p&gt;
 &lt;p&gt;Another relevant result is related to data analytics over Cloud Object storage repositories. Capacity Stores are becoming the standard infrastructure for data analytics in cloud environments thanks to their scalability and low cost. Our improvements in data connectors (&lt;a href=&quot;https://github.com/SparkTC/stocator&quot;&gt;Stocator&lt;/a&gt;) and data throughput (filters) will become mainstream in the next years in many different settings. Object Stores augmented with indexing technologies may effectively compete with NoSQL databases in many scenarios of unstructured or semi-structured data with flexible schemas.&lt;/p&gt;
 &lt;p&gt;The project has three major use cases where we validated our results: &lt;strong&gt;Energy data management&lt;/strong&gt; from smart meters (&lt;a href=&quot;http://www.gridpocket.com/&quot;&gt;GridPocket&lt;/a&gt;), &lt;strong&gt;Automotive sector&lt;/strong&gt; (&lt;a href=&quot;http://www.applusidiada.com/en/&quot;&gt;Idiada&lt;/a&gt;), and &lt;strong&gt;Infrastructure providers&lt;/strong&gt; (&lt;a href=&quot;https://www.arctur.si/&quot;&gt;Arctur&lt;/a&gt;). But the potential scenarios for IOStack technologies go beyond these three ones. &lt;/p&gt;
 &lt;p&gt;Let’s enumerate some settings where IOStack results may become very relevant in the next years:&lt;/p&gt;
@@ -46,10 +46,10 @@
 	</entry>
 	<entry>
 		<title>Horizon 2020: Project SUNFISH</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/news/16-sunfish"/>
+		<link rel="alternate" type="text/html" href="news/16-sunfish"/>
 		<published>2017-11-17T09:28:42+00:00</published>
 		<updated>2017-11-17T09:28:42+00:00</updated>
-		<id>http://iostack.eu/news/16-sunfish</id>
+		<id>news/16-sunfish</id>
 		<author>
 			<name>Super User</name>
 			<email>iostackproject@gmail.com</email>
@@ -80,10 +80,10 @@
 	</entry>
 	<entry>
 		<title>OpenIO collaborates with IOStack</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/news/15-openio"/>
+		<link rel="alternate" type="text/html" href="news/15-openio"/>
 		<published>2017-03-14T18:06:15+00:00</published>
 		<updated>2017-03-14T18:06:15+00:00</updated>
-		<id>http://iostack.eu/news/15-openio</id>
+		<id>news/15-openio</id>
 		<author>
 			<name>Super User</name>
 			<email>iostackproject@gmail.com</email>
@@ -100,10 +100,10 @@
 	</entry>
 	<entry>
 		<title>IOStack exploitation: Use cases</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/news/14-exploitation"/>
+		<link rel="alternate" type="text/html" href="news/14-exploitation"/>
 		<published>2016-09-19T11:56:56+00:00</published>
 		<updated>2016-09-19T11:56:56+00:00</updated>
-		<id>http://iostack.eu/news/14-exploitation</id>
+		<id>news/14-exploitation</id>
 		<author>
 			<name>Super User</name>
 			<email>iostackproject@gmail.com</email>
@@ -128,10 +128,10 @@
 	</entry>
 	<entry>
 		<title>Welcome to IOStack</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/news/5-welcome-to-iostack"/>
+		<link rel="alternate" type="text/html" href="news/5-welcome-to-iostack"/>
 		<published>2015-02-26T15:05:20+00:00</published>
 		<updated>2015-02-26T15:05:20+00:00</updated>
-		<id>http://iostack.eu/news/5-welcome-to-iostack</id>
+		<id>news/5-welcome-to-iostack</id>
 		<author>
 			<name>Edgar Zamora-Gómez</name>
 			<email>edgar.zamora@urv.cat</email>

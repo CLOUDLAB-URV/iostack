@@ -1,0 +1,194 @@
+/* --- Pagination (additional styling for Joomla! 1.6+) --- */
+.k2Pagination ul li a.pagenav:hover { color: #4eaeb9; }
+
+.k2Pagination ul li span.pagenav {
+	background: url(../images/grad.png) repeat-x left bottom #55b5c2;
+	border: 1px solid #1c9bab;
+}
+
+/*----------------------------------------------------------------------
+Component: Item view
+----------------------------------------------------------------------*/
+div.itemHeader h2.itemTitle span sup {
+	color: #4eaeb9;
+}
+
+div.itemToolbar div.ItemCommentsLink a.itemCommentsLink:hover {
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+
+/* Author block */
+div.itemAuthorBlock div.itemAuthorDetails h3.authorName a:hover,
+div.itemAuthorBlock div.itemAuthorDetails h3.itemAuthorName a:hover { color: #4eaeb9; }
+
+/* Author latest */
+div.itemAuthorLatest ul li a:hover { color: #4eaeb9; }
+
+/* Related by tag */
+div.itemRelated ul li a:hover { color: #4eaeb9; }
+
+/* Comments */
+div.itemCommentsForm h3 {
+	color: #4eaeb9;
+}
+
+div.itemCommentsForm form span#formLog{
+	color: #4eaeb9;
+}
+
+/* "Report comment" form */
+div.k2ReportCommentFormContainer form span#formLog{
+	color: #4eaeb9;
+}
+
+/*----------------------------------------------------------------------
+Component: Item Blog
+----------------------------------------------------------------------*/
+.itemBlog .itemDateCreated {
+	border: 1px solid #4eaeb9;
+	color: #4eaeb9;
+}
+
+/*----------------------------------------------------------------------
+Component: Itemlist view (category)
+----------------------------------------------------------------------*/
+/* --- Category block --- */
+
+/* --- Sub-category block --- */
+div.subCategory:hover {
+	border-color: #4eaeb9;
+}
+
+div.subCategory > h2 a:hover,
+div.subCategory:hover > h2 a { color: #4eaeb9; }
+
+/* --- Item groups --- */
+
+/* --- Item block for each item group --- */
+
+/* Additional class appended to the element above for further styling per group item */
+div.catItemHeader h3.catItemTitle a:hover,
+div.catItemHeader h3.catItemTitle a:focus,
+div.catItemHeader h3.catItemTitle a:active,
+div.itemContainer:hover div.catItemHeader h3.catItemTitle a {
+	color: #4eaeb9;
+}
+
+div.catItemHeader h3.catItemTitle span sup {
+	color: #4eaeb9;
+}
+
+/* Anchor link to comments */
+div.catItemCommentsLink a:hover {
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+
+/* Read more link */
+div.catItemReadMore a:hover {
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+
+/*----------------------------------------------------------------------
+Component: ItemBlog view (category)
+----------------------------------------------------------------------*/
+.itemBlogView .itemContainer:hover .catItemDateCreated {
+	border-color: #4eaeb9;
+	color: #4eaeb9;
+}
+/*----------------------------------------------------------------------
+Component: Itemlist view (user)
+----------------------------------------------------------------------*/
+div.userItemHeader h3.userItemTitle a:hover,
+div.userItemHeader h3.userItemTitle a:focus,
+div.userItemHeader h3.userItemTitle a:active {
+	color: #4eaeb9;
+}
+
+div.userItemHeader h3.userItemTitle span sup {
+	color: #4eaeb9;
+}
+
+/* Anchor link to comments */
+div.userItemCommentsLink a:hover {
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+
+/* Read more link */
+div.userItemReadMore a:hover{
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+/*----------------------------------------------------------------------
+Component: Itemlist view (tag)
+----------------------------------------------------------------------*/
+div.tagItemHeader h2.tagItemTitle a:hover,
+div.tagItemHeader h2.tagItemTitle a:focus,
+div.tagItemHeader h2.tagItemTitle a:active {
+	color: #4eaeb9;
+}
+
+/* Read more link */
+div.tagItemReadMore a:hover{
+	background-image: url(../images/readmore-hover.png);
+	color: #4eaeb9;
+}
+
+/*----------------------------------------------------------------------
+Component: Itemlist view (generic)
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+Component: Latest view
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+Component: Register & profile page views (register.php & profile.php)
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+Modules: mod_k2_comments
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+Modules: mod_k2_content
+----------------------------------------------------------------------*/
+div.k2ItemsBlock ul li div.moduleItemAuthor a:hover { color: #4eaeb9; }
+
+/*----------------------------------------------------------------------
+Modules: mod_k2_user (mod_k2_login will be removed in v2.6)
+----------------------------------------------------------------------*/
+div.k2LoginBlock ul li a:hover,
+div.k2LoginBlock ul li a:focus,
+div.k2LoginBlock ul li a:active { color: #4eaeb9; }
+
+ul.k2UserBlockActions li a:hover,
+ul.k2UserBlockActions li a:focus,
+ul.k2UserBlockActions li a:active { color: #4eaeb9; }
+
+/*----------------------------------------------------------------------
+Modules: mod_k2_tools
+----------------------------------------------------------------------*/
+/* --- Archives --- */
+
+div.k2ArchivesBlock ul li a:hover { color: #4eaeb9; }
+
+/* --- Breadcrumbs --- */
+
+/* --- Calendar --- */
+
+/* --- Category Tree Select Box --- */
+
+/* --- Category List/Menu --- */
+div.k2CategoriesListBlock ul li {
+	background-image: url(../images/bullet.png);
+}
+
+div.k2CategoriesListBlock ul li a:hover,
+div.k2CategoriesListBlock ul li a:focus,
+div.k2CategoriesListBlock ul li a:active,
+div.k2CategoriesListBlock ul li.activeCategory a { color: #4eaeb9; }
+/* --- END --- */

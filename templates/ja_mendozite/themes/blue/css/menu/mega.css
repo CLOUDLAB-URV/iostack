@@ -1,0 +1,44 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* 0v - 0 and below
+-----------------------------------*/
+.ja-megamenu ul.level0 > li.active > a.mega {
+	background: url(../../images/grad.png) repeat-x left top #55b5c2;
+	border: 1px solid #5fbfcb;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.over,
+.ja-megamenu ul.level1 li.active {
+	border-color: #5fbfcb;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#85cfd8), to(#55b5c2)); /* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #85cfd8, #55b5c2); /* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #85cfd8, #55b5c2); /* IE 10 */
+	background: -ms-linear-gradient(top, #85cfd8, #55b5c2); /* Opera 11.10+ */
+	background: -o-linear-gradient(top, #85cfd8, #55b5c2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#85cfd8, endColorstr=#55b5c2); /* For Internet Explorer 5.5 - 7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#85cfd8, endColorstr=#55b5c2)"; /* For Internet Explorer 8 */
+	background-color: #6ec2cc;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+
+/* Grouped --- */
+
+.megamenu p.readmore a {
+	background-image: url(../../images/readmore-hover.png);
+	color: #4eaeb9;
+}

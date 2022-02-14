@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* BIG NUMBER
+-----------------------------------------------------------------*/
+.blocknumber .bignumber {
+	background-image: url(../images/blocknumber-bg.png);
+}
+
+/* TYPO PAGE LAYOUT
+-------------------------------------------------------------*/
+
+.ja-typo-blockswrap h1.ja-typo-title {
+	border-left-color: #ecbd00;
+	color: #ecbd00;
+}

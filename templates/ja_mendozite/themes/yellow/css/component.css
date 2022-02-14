@@ -1,0 +1,27 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+body.contentpane a { color: #ecbd00; }
+
+body.contentpane .button,
+body.contentpane #ja-typo button,
+#login-form input.button {
+	background: url(../../images/grad.png) repeat-x left top #d9ab00;
+	border: 1px solid #d9ab00;
+}
+
+body.contentpane h1.componentheading a:hover,
+body.contentpane h2.componentheading a:hover,
+body.contentpane .componentheading a:hover,
+body.contentpane h2.contentheading a:hover {
+	color: #ecbd00;
+}

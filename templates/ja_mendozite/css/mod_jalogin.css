@@ -1,0 +1,135 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+#ja-login {
+	float: right;
+	margin-top: 8px;
+}
+
+#ja-login > ul {
+	position: relative;
+}
+
+#ja-login > ul > li {
+	display: inline-block;
+	float: left;
+}
+
+#ja-login > ul > li > a {
+	color: #222;
+	font-size: 92%;
+	padding: 0 10px 0 30px;
+	height: 25px;
+	line-height: 25px;
+	background: #fff no-repeat 10px center;
+	border: 1px solid #fff;
+	display: inline-block;
+	z-index: 1;
+}
+
+#ja-login > ul > li > a:hover,
+#ja-login > ul > li > a:focus,
+#ja-login > ul > li > a:active {
+	border-color: #e2e2e2;
+	background-color: #fff;
+}
+
+#ja-login > ul > li > a.show {
+	border-color: #e2e2e2;
+	border-bottom-color: #fff;
+	background-color: #fff;
+	z-index: 3;
+}
+
+#ja-login > ul > li > a.login-switch {
+	background-image: url(../images/icons/icon-login.png);
+}
+
+#ja-login > ul > li > a.register-switch {
+	background-image: url(../images/icons/icon-register.png);
+}
+
+#ja-user-login ul li a:link, #ja-user-login ul li a:visited {
+	padding: 0 !important;
+}
+
+.login-greeting {
+	float: right;
+	margin-right: 10px;
+}
+ 
+.logout-button {
+	float: right;
+}
+
+.column .login-greeting {
+	float: none;
+	margin-right: 0;
+}
+
+.column .logout-button {
+	float: none;
+	margin-top: 10px;
+}
+#ja-user-register.hascaptcha{
+   width:430px !important;
+}
+
+#ja-user-login, #ja-user-register {
+	position: absolute;
+	display: none;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	padding: 20px;
+	right: 30px;
+	margin-top: -1px;
+	z-index: 2;
+	top: 27px;
+}
+
+#ja-user-register {
+	right: 0px;
+}
+#ja-user-login .inputbox, 
+#ja-user-register input[type="text"],
+#ja-user-register input[type="password"],
+#ja-user-register input[type="email"] {
+	width: 230px;
+}
+
+#ja-user-login #modlgn-remember {
+	width: auto;
+	border: 0;
+}
+
+#form-login-username,
+#form-login-password,
+#form-login-remember {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+#ja-user-register fieldset dt {
+	clear: none;
+	float: none;
+	padding: 0;
+}
+
+#ja-user-register fieldset dd {
+	padding: 0;	
+	margin-bottom: 10px;
+}
+
+#ja-user-register fieldset + p {
+	margin-bottom: 10px;
+	font-size: 92%;
+}

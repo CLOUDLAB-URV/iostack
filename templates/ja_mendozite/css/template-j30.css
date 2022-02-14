@@ -1,0 +1,288 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+ 
+/* Upgrade for Joomla 3.0 ---*/
+.search .btn-toolbar .btn-group {
+	display: inline-block;
+}
+
+span.badge.badge-info {
+	position: inherit;
+	border: none;
+	height: auto; 
+	width: auto;
+	top: auto;
+	right: auto;
+	display: inline-block;	
+	background: none;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: 'IcoMoon';
+    font-style: normal;
+}
+
+.icon-search:before {
+    content: "\53";
+}
+
+ul.actions li a [class^="icon-"]:before, [class*=" icon-"]:before {
+	display: none;
+}
+
+ul.actions li a,
+ul.actions li a:hover,
+ul.actions li a:focus,
+ul.actions li a:active {
+	padding: 0px;
+	margin: 0px 2px;
+	display: inline-block;
+	background-repeat: no-repeat; 
+	background-position: left top;
+	display: inline-block;
+	font-size: 0px;
+	text-indent: -999em;
+	border: none;
+	text-decoration: none;
+}
+
+ul.actions li.print-icon a {
+	 background: url("../images/system/printButton.png") no-repeat center center ;
+}
+
+ul.actions li.email-icon a {
+	 background: url("../images/system/emailButton.png") no-repeat center center;
+}
+
+ul.actions li.edit-icon a {
+	 background: url("../images/system/edit.png") no-repeat center center;
+}
+
+.newsfeed-category label.element-invisible,
+.weblink-category label.element-invisible {
+    border: 0 none;
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.newsfeed-category #filter-search,
+.weblink-category #filter-search {
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#finder-search fieldset.word a.btn {
+	background: none repeat scroll 0 0 #EEEEEE;
+    clear: right;
+    color: #333333;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+#finder-search fieldset.word a.btn:hover {
+  background: #d05338;
+  color: #fff;
+}
+
+
+#advancedSearch hr {
+	display: none;
+}
+
+#search-form .collapse {
+	position: relative;
+	overflow: hidden;
+}
+
+#search-form .collapse.in {
+	height: auto;
+}
+
+#finder-filter-window {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  width: auto !important;
+}
+
+#finder-filter-window #finder-filter-select-list div.filter-branch {
+  background: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+#finder-filter-window #finder-filter-select-list div.filter-branch label {
+  display: block;
+  float: left;
+  font-weight: bold;
+  padding-right: 10px;
+  width: 150px;
+}
+
+
+ul li.cat-list-row0 {
+	border-bottom: solid 1px #ddd;
+}
+
+body p.mendozite-icon {
+	width: auto !important; 
+	display: block !important;
+	height: auto !important;
+}
+
+#finder-search .icon-search:before  {
+	display: inline-block !important;
+}
+
+#finder-search a.btn i.icon-list {
+	display: none;
+}
+
+.login-fields .required  {
+	width: 110px !important;
+}
+.weblink-category #adminForm fieldset {
+	margin: 0px\9 !important;
+	padding: 0px\9!important;
+	border: none\9 !important;
+}
+
+/* Style for Tag J3x */
+div.tag-category .filters.btn-toolbar {
+	padding: 10px !important;
+}
+
+div.tag-category ul li {
+	border: none;
+	border-bottom: 1px dotted #E5E5E5;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+div.tag-category ul li:hover {
+	background: none;
+}
+
+div.tag-category ul li h3 {
+	font-size: 150%;
+	font-weight: normal;
+	font-family: 'PT Sans';
+	margin-bottom: 5px;
+	margin-top: 0;
+	text-transform: none;
+	display: inline;
+}
+
+div.tag-category ul li h3 a {
+	color: #333333;
+}
+
+div.tag-category ul li h3 a:hover,
+div.tag-category ul li h3 a:active,
+div.tag-category ul li h3 a:focus {
+	color: #D05338;
+}
+
+div.tag-category ul li img {
+	float: left;
+	margin: 5px 15px 20px 0px;
+}
+
+div.tags span {
+	display: inline-block;
+	margin: 0 2px 3px 0;
+}
+
+div.tags span a {
+	background: #fff;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	color: #999999;
+	display: inline-block;
+	padding: 2px 10px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+}
+
+div.tags span a:hover,
+div.tags span a:active,
+div.tags span a:focus {
+	background: #fff;
+	border: 1px solid #333333;
+	color: #333333;
+	text-decoration: none;
+}
+
+div.tagspopular ul li {
+	background: none;
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 0;
+}
+
+div.tagspopular ul li a {
+	background: #fff;
+	border: 1px solid #D05338;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 2px 10px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+}
+
+div.tagspopular ul li a:hover,
+div.tagspopular ul li a:active,
+div.tagspopular ul li a:focus {
+	background: #010101;
+	border: 1px solid #010101;
+	color: #fff;
+	text-decoration: none;
+}
+
+div.tagssimilar ul li {
+	background: url("../images/bullet.gif") no-repeat scroll 3px 8px transparent;
+	border-bottom: 0 none;
+	padding: 2px 0px 2px 15px;
+}
+
+div.tagssimilar ul li a {
+    color: #666666;
+}
+
+div.tagssimilar ul li a:hover, 
+div.tagssimilar ul li a:active, 
+div.tagssimilar ul li a:focus {
+	color: #D05338;
+}
+
+/* Kunena */
+#Kunena span.kheadbtn a {
+	color: #fff !important;
+}
+
+/* edit */
+.chzn-container .chzn-results li {
+	background: none;
+}
+
+/* print */
+.com_content.contentpane ul.actions [class^="icon-"]:before {
+	display: none;
+}

@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* ------------------- */
+/* -- typo.css  -- */
+/* ------------------- */
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+
+.ja-typo-bubble .ja-typo-bubblect { border-top: 5px; }
+
+.ja-typo-bubble p.ja-typo-bubble-meta { margin: -5px 0 0; }
+
+.ja-typo-legend { border-top: 5px; }
+
+fieldset.ja-typo-fieldset {
+	overflow: hidden;
+}
+
+.ja-typo-blockrow fieldset.ja-typo-fieldset {
+	margin-bottom: 20px;
+}
+
+.custombadge-new li {
+	zoom: 0 !important;
+}
+
+input[type="checkbox"] {
+	margin-top: -2px;
+}
+
+.formelm-buttons input[type="submit"],
+.formelm-buttons button {
+	margin-right: 5px;
+}
+
+.ja-ss-item {
+	height: 450px;
+}
+
+.clr, .clearList {
+    font-size: 0px;
+    overflow: hidden;
+}
+
+#finder-search input.inputbox {
+	margin-right: 3px;
+}
+
+/* K2 Page ---*/
+div.itemSocialSharing { zoom: 1; }
+
+div.itemRatingBlock { width: 215px; }
+
+div.subCategoryContainer div.subCategory p {
+	max-height: 55px;
+	overflow: hidden;
+}
+
+div.subCategory .subCategoryImage p.readmore {
+	max-height: auto;
+	
+}
+
+div.itemList div.itemContainer {
+	float: none;
+}
+
+#ja-botsl1 .ja-moduletable li .clr,
+#ja-botsl2 .ja-moduletable li .clr {
+	display: none;
+}
+/* Typo PAge ---*/
+a.ja-typo-btn-icn span { zoom: 1; }

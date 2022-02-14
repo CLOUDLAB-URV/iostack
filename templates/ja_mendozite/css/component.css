@@ -1,0 +1,122 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+body#bd {
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	background: #fff;
+}
+
+body.contentpane a { color: #d05338; text-decoration: none; }
+
+body.contentpane a:hover, body.contentpane a:active, body.contentpane a:focus { color: #111; }
+
+body.contentpane .button,
+body.contentpane #ja-typo button,
+#login-form input.button {
+	background: url(../images/grad.png) repeat-x left top #e55f43;
+	border: 1px solid #f54f27;
+	color: #fff;
+	font-size: 80%;
+	text-transform: uppercase;
+	padding: 4px;
+	cursor: pointer;
+	overflow: visible;
+}
+
+body.contentpane .inputbox,
+body.contentpane input[type=text],
+body.contentpane input[type=password],
+body.contentpane input[type=email] {
+	border: 1px solid #eee; 
+	background: #fff;
+	padding: 4px 9px;
+}
+
+body.contentpane .inputbox:hover, body.contentpane .inputbox:focus,
+body.contentpane input[type=text]:hover, body.contentpane input[type=text]:focus,
+body.contentpane input[type=password]:hover, body.contentpane input[type=password]:focus,
+body.contentpane input[type=email]:hover, body.contentpane input[type=email]:focus {
+	border-color: #bfbfbf; 
+}
+
+body.contentpane h1.componentheading,
+body.contentpane h2.componentheading,
+body.contentpane .componentheading,
+body.contentpane h2.contentheading {
+	font-size: 140%;
+}
+
+body.contentpane h1.componentheading a,
+body.contentpane h2.componentheading a,
+body.contentpane .componentheading a,
+body.contentpane h2.contentheading a{
+	color: #333;
+}
+
+body.contentpane h1.componentheading a:hover,
+body.contentpane h2.componentheading a:hover,
+body.contentpane .componentheading a:hover,
+body.contentpane h2.contentheading a:hover {
+	color: #d05338;
+}
+
+/* Acymailling Module */ 
+table.acymailing_form {
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+}
+
+.acysubbuttons {
+	text-align: left;
+}
+
+.acymailing_module_form table.acymailing_form input.inputbox {
+	border: 1px solid #eee; 
+	background: #fff;
+	padding: 4px 9px;
+	width: auto;
+	font-weight: bold;
+	color: #000;
+	font-size: 95%;
+}
+
+.acymailing_module_form table.acymailing_form input.inputbox:focus {
+	border-color: #bfbfbf;
+}
+
+.acysubbuttons input.button,
+.acysubbuttons input.button:hover,
+.acysubbuttons input.button:focus,
+body.contentpane .button,
+body.contentpane #ja-typo button,
+#login-form input.button  {
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #fafafa;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s; /* Firefox 4 */
+	-webkit-transition: all 0.5s; /* Safari and Chrome */
+	-o-transition: all 0.5s; /* Opera */
+	box-shadow: 1px 1px 1px #999;
+}
+
+body.contentpane ul.actions li a {
+	background: url("../images/system/printButton.png") no-repeat left top;
+	 vertical-align: top;
+	 width: 16px;
+	 height: 16px;
+	 text-decoration: none; 
+	 font-size: 0px;
+	 text-indent: -9999em;
+	 display: inline-block;
+}

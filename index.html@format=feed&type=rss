@@ -4,15 +4,15 @@
 	<channel>
 		<title>IOStack Project</title>
 		<description><![CDATA[Software-Defined Storage for Big Data]]></description>
-		<link>http://iostack.eu/component/content/?view=featured</link>
+		<link>component/content/?view=featured</link>
 		<lastBuildDate>Mon, 14 Feb 2022 09:45:06 +0000</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
-		<atom:link rel="self" type="application/rss+xml" href="http://iostack.eu/?format=feed&amp;type=rss"/>
+		<atom:link rel="self" type="application/rss+xml" href="?format=feed&amp;type=rss"/>
 		<language>en-gb</language>
 		<item>
 			<title>Overview</title>
-			<link>http://iostack.eu/11-iostack/homepage-articles/4-overview</link>
-			<guid isPermaLink="true">http://iostack.eu/11-iostack/homepage-articles/4-overview</guid>
+			<link>11-iostack/homepage-articles/4-overview</link>
+			<guid isPermaLink="true">11-iostack/homepage-articles/4-overview</guid>
 			<description><![CDATA[<div class="feed-description"><h1>Welcome to the IOStack project!</h1>
 <p> </p>
 <p align="center"><iframe src="https://www.youtube.com/embed/n9w5TIRX_fo" frameborder="0" width="560" height="315"></iframe></p>
@@ -67,13 +67,13 @@
 </tr>
 <tr>
 <td style="background-color: #d9d9d9 !important; text-align: center !important; vertical-align: middle !important; width: 25%; padding: 0; border-bottom: 2px solid #fff; border-right: 2px solid #fff;" colspan="2" height="36">Spark</td>
-<td style="background-color: #aee7ec !important; text-align: center !important; vertical-align: middle !important; padding: 0; border-bottom: 2px solid #fff; border-right: 2px solid #fff;" colspan="1" height="36"><a href="http://iostack.eu/software/stocator" target="_blank" style="color: #0086df; text-decoration: none;">Stocator</a></td>
+<td style="background-color: #aee7ec !important; text-align: center !important; vertical-align: middle !important; padding: 0; border-bottom: 2px solid #fff; border-right: 2px solid #fff;" colspan="1" height="36"><a href="software/stocator" target="_blank" style="color: #0086df; text-decoration: none;">Stocator</a></td>
 <td style="background-color: #d9d9d9 !important; text-align: center !important; vertical-align: middle !important; width: 18%; padding: 0; border-top: 0px; border-bottom: 2px solid #fff; border-right: 2px solid #fff;" colspan="2" height="36"> </td>
 <td style="background-color: #aee7ec !important; text-align: center !important; vertical-align: middle !important; padding: 0; border-bottom: 2px solid #fff; border-right: 2px solid #fff; border-top: 2px solid #fff;" colspan="2" height="36"><a href="https://github.com/iostackproject/s3ql" target="_blank" style="color: #0086df; text-decoration: none;">Fuse client</a></td>
 <td style="background-color: #d9d9d9 !important; text-align: center !important; vertical-align: middle !important; width: 18%; padding: 0; border-top: 0px; border-bottom: 2px solid #fff;" colspan="1" height="36"> </td>
 </tr>
 <tr>
-<td style="background-color: #aee7ec !important; width: 8% !important; text-align: center !important; vertical-align: middle !important; padding: 0; border-bottom: 1px solid #fff;" colspan="8" height="34"><a href="http://iostack.eu/software/zoe" target="_blank" style="color: #0086df; text-decoration: none;">Zoe</a></td>
+<td style="background-color: #aee7ec !important; width: 8% !important; text-align: center !important; vertical-align: middle !important; padding: 0; border-bottom: 1px solid #fff;" colspan="8" height="34"><a href="software/zoe" target="_blank" style="color: #0086df; text-decoration: none;">Zoe</a></td>
 </tr>
 </tbody>
 </table>
@@ -81,12 +81,12 @@
 <tbody>
 <tr>
 <td style="background-color: #aee7ec; border-right: 2px solid #fff; padding: 0;"> </td>
-<td style="background-color: #aee7ec; text-align: center; border-right: 2px solid #fff; border-bottom: 2px solid #fff; padding: 0;" rowspan="2"><a href="http://iostack.eu/software/storlets" target="_blank" style="color: #0086df; text-decoration: none;">Storlets</a></td>
+<td style="background-color: #aee7ec; text-align: center; border-right: 2px solid #fff; border-bottom: 2px solid #fff; padding: 0;" rowspan="2"><a href="software/storlets" target="_blank" style="color: #0086df; text-decoration: none;">Storlets</a></td>
 <td style="background-color: #aee7ec; padding: 0;"> </td>
 </tr>
 <tr>
-<td style="background-color: #aee7ec; text-align: center; border-right: 2px solid #fff; width: 25%; padding: 0;"><a href="http://iostack.eu/software/crystal" target="_blank" style="color: #0086df; text-decoration: none;">Crystal</a></td>
-<td style="background-color: #aee7ec; text-align: center; padding: 0;"><a href="http://iostack.eu/software/konnector" target="_blank" style="color: #0086df; text-decoration: none;">Konnector</a></td>
+<td style="background-color: #aee7ec; text-align: center; border-right: 2px solid #fff; width: 25%; padding: 0;"><a href="software/crystal" target="_blank" style="color: #0086df; text-decoration: none;">Crystal</a></td>
+<td style="background-color: #aee7ec; text-align: center; padding: 0;"><a href="software/konnector" target="_blank" style="color: #0086df; text-decoration: none;">Konnector</a></td>
 </tr>
 <tr style="background-color: #aee7ec;">
 <td style="width: 50%; border-right: 2px solid #fff; text-align: center; padding: 0;" colspan="2"> </td>
@@ -126,15 +126,15 @@
 <table style="width: 100%;" border="0" cellpadding="4">
 <tbody>
 <tr>
-<td><img src="http://iostack.eu/images/dissagregation.png" border="0" alt="Share" width="74" height="82" style="border: 0;" /></td>
+<td><img src="images/dissagregation.png" border="0" alt="Share" width="74" height="82" style="border: 0;" /></td>
 <td style="text-align: justify;"><strong>Storage and compute disaggregation and virtualization.</strong> Virtualizing data analyticis to reduce costs implies disaggregation of existing hardware resources. This requires the creation of a virtual model for compute, storage and networking that allows orchestration tools to manage resources in an efficient manner. For the orchestration layer it is essential to provide policy-based provisioning tools so that the provisioning of virtual components for the analytics platform is made according to the set of QoS policies. </td>
 </tr>
 <tr>
-<td><img src="http://iostack.eu/images/analytics.png" border="0" alt="Storage" width="80" height="75" style="border: 0;" /></td>
+<td><img src="images/analytics.png" border="0" alt="Storage" width="80" height="75" style="border: 0;" /></td>
 <td style="text-align: justify;"><strong>SDS Services for Analytics. </strong>The objective is to define, design, and build a stack of SDS data service enabling virtualized analytics with improved performance and usability. Among these services we include native object store analytics that will allow running analytics close to the data without taxing initial migration, data reduction services that will be optimized for the special requirements posed by virtualized analytics platforms, and specialized persistent caching mechanisms, advanced prefetching and data placement. </td>
 </tr>
 <tr>
-<td><img src="http://iostack.eu/images/orchestation.png" border="0" alt="Services" width="83" height="83" /></td>
+<td><img src="images/orchestation.png" border="0" alt="Services" width="83" height="83" /></td>
 <td style="text-align: justify;"><strong>Orchestration and deployment of big data analytics services.</strong> The objective is to design and build efficient deployment strategies for virtualized analytic-as-a-service instances (both ephemeral and permanent). In particular, the focus of this work is on data-intensive scalable computing (DISC) systems such as Apache Hadoop and Apache Spark, which enable users to define both batch and latency-snsitive analytics. This objective includes the design of scalable algorithms that strive at optimizing a service-wide objective function (e.g., optimize performance, minimize cost, etc...) under heterogeneous workloads. <br /><br /></td>
 </tr>
 </tbody>

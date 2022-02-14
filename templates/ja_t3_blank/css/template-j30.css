@@ -1,0 +1,275 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA T3V2 Blank Template
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+ /* JOOMLA STYLE
+ ---------------------------------------------------------------------*/
+ /* Login module --- */
+ #login-form .input-prepend .add-on {
+  background-color: #EEEEEE;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  height: 18px;
+  line-height: 18px;
+  min-width: 16px;
+  margin-right: -4px;
+  padding: 4px 5px;
+  text-align: center;
+  text-shadow: 0 1px 0 #FFFFFF;
+  width: auto;
+}
+
+#login-form .input-prepend .add-on label {
+	display: none;
+}
+
+#login-form .input-prepend input {
+	border: 1px solid #ccc;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	width: 120px;
+}
+
+ 
+/* Upgrade for Joomla 3.0 ---*/
+.search .btn-toolbar .btn-group {
+	display: inline-block;
+}
+
+span.badge.badge-info {
+	background: none;
+	border: none;
+	display: inline-block;
+	height: auto;
+	position: inherit;
+	right: auto;
+	top: auto;
+	width: auto;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'IcoMoon';
+	font-style: normal;
+}
+
+.icon-search:before {
+	content: "\53";
+}
+
+ul.actions li a [class^="icon-"]:before, [class*=" icon-"]:before {
+	display: none;
+}
+
+ul.actions li a,
+ul.actions li a:hover,
+ul.actions li a:focus,
+ul.actions li a:active {
+	background-position: left top;
+	background-repeat: no-repeat;
+	border: none;
+	display: inline-block;
+	display: inline-block;
+	font-size: 0px;
+	height: 16px;
+	margin: 0px 2px;
+	padding: 0px;
+	text-decoration: none;
+	text-indent: -999em;
+	width: 16px;
+}
+
+ul.actions li.print-icon a {
+	background: url("../images/system/printButton.png");
+}
+
+ul.actions li.email-icon a {
+	background: url("../images/system/emailButton.png");
+}
+
+.search .btn-toolbar .btn-group .btn.hasTooltip {
+	padding: 2px 5px;
+}
+
+.newsfeed-category label.element-invisible,
+.weblink-category label.element-invisible {
+	border: 0 none;
+	height: 1px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.newsfeed-category #filter-search,
+.weblink-category #filter-search {
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+.contact .accordion-heading .accordion-toggle,
+.contact .accordion-heading .accordion-toggle:hover,
+.contact .accordion-heading .accordion-toggle:focus {
+	color: #444;
+	font-family: 'texgyreadventorregular';
+	font-size: 125%;
+	padding: 4px 10px;
+}
+
+.contact-miscinfo .dl-horizontal {
+	margin: 0px;
+}
+
+.contact .contact-form .form-actions button {
+	margin-left: 13.2em;
+}
+
+input#jform_contact_emailmsg {
+	width: 80%;
+}
+
+.contact .contact-form .controls {
+	max-width: 380px;
+}
+
+.contact-miscinfo .jicons-icons {
+	margin-right: 3px;
+}
+
+.contact .contact-links .nav-tabs > li {
+	background: url("../images/bullet.gif") no-repeat 18px 7px;
+	margin-bottom: 5px;
+	padding-left: 30px;
+}
+
+.contact .accordion-heading .accordion-toggle,
+.contact .accordion-heading .accordion-toggle:hover,
+.contact .accordion-heading .accordion-toggle:focus,
+.contact .accordion-heading .accordion-toggle:active {
+	color: #444;
+	font-size: 125%;
+	text-decoration: none;
+}
+
+ul.actions {
+	margin: 0;
+}
+
+a.dropdown-toggle{
+	display: none;
+}
+
+ul.dropdown-menu {
+	float: right;
+	margin: 0 0 15px 0;
+	margin-bottom: 15px;
+}
+
+ul.dropdown-menu li {
+	background: none repeat scroll 0 0 transparent;
+	display: inline;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+ul.dropdown-menu li.print-icon a {
+	background: url("../images/system/printButton.png") repeat;
+}
+
+ul.dropdown-menu li.email-icon a {
+	background: url("../images/system/emailButton.png") repeat;
+}
+
+ul.dropdown-menu li a,
+ul.dropdown-menu li a:hover,
+ul.dropdown-menu li a:focus,
+ul.dropdown-menu li a:active {
+	background-position: left top;
+	background-repeat: no-repeat;
+	border: medium none;
+	display: inline-block;
+	font-size: 0;
+	height: 16px;
+	margin: 0 2px;
+	padding: 0;
+	text-decoration: none;
+	text-indent: -999em;
+	width: 16px;
+}
+
+div.items-row{
+	clear: both;
+	overflow: hidden;
+}
+
+div.item .btn-group, div.item p{
+	padding: 0 23px 0 0;
+}
+
+div.item.column-2{
+	float: right;
+}
+
+div.item.column-2 .btn-group, div.item.column-2  p{
+	padding: 0 15px 0 7px;
+}
+
+dl.article-info{
+	float: none;
+}
+
+.weblink-category #adminForm fieldset {
+	border: none\9;
+	margin: 0px\9;
+	padding: 0px\9;
+}
+
+.pull-right {
+    padding: 0 15px 0 0;
+}
+
+#adminForm table th {
+    background: #F7F7F7;
+}
+
+div.tags span{
+	border-radius: 12px 12px 12px 12px;
+	background: none repeat scroll 0 0 #CCCCCC;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.8);
+	display: inline-block;
+	line-height: normal;
+	margin: 2px;
+	padding: 3px 12px;
+	white-space: nowrap;
+}
+
+div.article-tools .tooltip {
+	top: 20px !important;
+	left: auto !important;
+	right: 0;
+}
+
+div.contact-form .tooltip {
+	left: 10px !important;
+}
+
+.tag-category .caption {
+  padding: 0 5px 0 0;
+}
+
+.alert {
+  margin: 0 15px 0 0;
+  padding: 2px 35px 2px 14px;
+}
+

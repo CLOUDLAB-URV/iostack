@@ -4,16 +4,16 @@
 	<title type="text">IOStack Project</title>
 	<subtitle type="text">Software-Defined Storage for Big Data</subtitle>
 	<link rel="alternate" type="text/html" href="http://iostack.eu"/>
-	<id>http://iostack.eu/</id>
+	<id></id>
 	<updated>2022-02-14T09:45:06+00:00</updated>
 	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
-	<link rel="self" type="application/atom+xml" href="http://iostack.eu/?format=feed&amp;type=atom"/>
+	<link rel="self" type="application/atom+xml" href="?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Overview</title>
-		<link rel="alternate" type="text/html" href="http://iostack.eu/11-iostack/homepage-articles/4-overview"/>
+		<link rel="alternate" type="text/html" href="11-iostack/homepage-articles/4-overview"/>
 		<published>2015-02-25T16:23:02+00:00</published>
 		<updated>2015-02-25T16:23:02+00:00</updated>
-		<id>http://iostack.eu/11-iostack/homepage-articles/4-overview</id>
+		<id>11-iostack/homepage-articles/4-overview</id>
 		<author>
 			<name>Super User</name>
 			<email>iostackproject@gmail.com</email>

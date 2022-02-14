@@ -1,0 +1,291 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+#ja-header,
+#ja-mainnav,
+#ja-slideshow,
+#ja-botsl1,
+#ja-botsl2,
+#ja-footer { background-color: none; background-image: url(../images/bd.gif); }
+/* Normal links ---*/
+a { color: #ab3b51; }
+
+/* Readon links ---*/
+p.readmore a:hover,
+p.readmore a:focus,
+p.readmore a:active {
+	background-image: url(../images/readmore-hover.png);
+	color: #ab3b51;
+}
+
+.contentheading a:hover, .contentheading a:active, .contentheading a:focus {
+	color: #ab3b51;
+}
+
+/* FORM
+--------------------------------------------------------- */
+.button, button,
+input[type="submit"], input[type="cancel"], input[type="reset"] {
+	background: url(../images/grad.png) repeat-x left top #be3955;
+	border: 1px solid #c30021;
+}
+
+/* Smart Search ---*/
+dl.search-results dt.result-title a:hover,
+dl.search-results dt.result-title a:focus,
+dl.search-results dt.result-title a:active {
+  color: #ab3b51;
+}
+
+#advanced-search-toggle:hover {
+  background: #ab3b51;
+}
+
+/* Contact ---*/
+
+.contact-miscinfo .brandinfo-wrap .brand-point:hover + .brandinfo-main .number {
+	background-color: #ab3b51;
+}
+
+.contact-miscinfo .brandinfo-wrap .brand-point:hover + .brandinfo-main h4 {
+	color: #ab3b51;
+}
+
+.contact-misc .brand-point:hover {
+	background-image: url(../images/contact-brand-point-hover.png);
+}
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+/* Pagination ---*/
+.pagination ul li a.pagenav:hover , ul.pagenav li a:hover {
+	color: #ab3b51;
+}
+
+.pagination ul li span.pagenav {
+	background: url(../images/grad.png) repeat-x left bottom #be3955;
+	border: 1px solid #c30021;
+}
+
+/* More Items ---*/
+.items-more ol li a:hover,
+.items-more ol li a:focus,
+.items-more ol li a:active {
+	color: #ab3b51;
+}
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+/* Has Icon ---*/
+div.ja-moduletable.has-icon:hover h3 {
+	color: #ab3b51;
+}
+
+/* Login Module ---*/
+#login-form ul li a:hover,
+#login-form ul li a:focus,
+#login-form ul li a:active,
+.login + div > ul li a:hover,
+.login + div > ul li a:focus,
+.login + div > ul li a:active {
+	color: #ab3b51;
+}
+
+/* Search Module ---*/
+#ja-search .button {
+	background: url(../images/btn-search.png) no-repeat center center;
+}
+
+/* HEADER
+--------------------------------------------------------- */
+
+/* Logo Image ---*/
+h1.logo a {
+	background: url(../images/logo.png) no-repeat left;
+}
+
+/* Default Joomla! Menu ---*/
+.cat-children ul li a:hover,
+.cat-children ul li a:focus,
+.cat-children ul li a:active,
+.cat-children > ul li a:hover,
+.cat-children > ul li a:focus,
+.cat-children > ul li a:active {
+	color: #ab3b51;
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+/* Top spotlight 1 ---*/
+blockquote + .author .name {
+	color: #ab3b51;
+}
+
+/* Top spotlight 2 ---*/
+#ja-topsl2 .item:hover .itemDate {
+	border-color: #ab3b51;
+	color: #ab3b51;
+}
+
+#ja-topsl2 .item:hover .moduleItemTitle { color: #ab3b51; }
+
+/* Top spotlight 3 ---*/
+#ja-topsl3 .ja-slidenews-item .ja-title:hover,
+#ja-topsl3 .ja-slidenews-item .ja-title:focus,
+#ja-topsl3 .ja-slidenews-item .ja-title:active { color: #ab3b51; }
+
+#ja-topsl3 p.readmore a:hover,
+#ja-topsl3 p.readmore a:focus,
+#ja-topsl3 p.readmore a:active {
+	color: #ab3b51;
+}
+
+/* Bot spotlight 1,2 ---*/
+#ja-botsl2 .ja-moduletable li a:hover,
+#ja-botsl2 .ja-moduletable li a:focus,
+#ja-botsl2 .ja-moduletable li a:active,
+#ja-botsl1 .ja-moduletable li a:hover,
+#ja-botsl1 .ja-moduletable li a:focus,
+#ja-botsl1 .ja-moduletable li a:active {
+	color: #ab3b51;
+}
+
+/* FOOTER 
+--------------------------------------------------------- */
+
+/* MODULES
+--------------------------------------------------------- */
+
+/* Dark ---*/
+div.ja-moduletable.dark p.readmore a:hover {
+	color: #ab3b51;
+}
+
+/* Module Menu ---*/
+#ja-container div.moduletable_menu ul li { 
+	background: url(../images/bullet.png) no-repeat 5px center;
+}
+
+#ja-container div.moduletable_menu ul li a:hover,
+#ja-container div.moduletable_menu ul li a:focus,
+#ja-container div.moduletable_menu ul li a:active { color: #ab3b51; }
+
+/* Our Staffs ---*/
+.staffinfo.ceo h4 {
+	color: #ab3b51;
+}
+
+.staffinfo:hover h4 {
+	color: #ab3b51;
+}
+
+/* Archive Module ---*/
+div.ja-moduletable ul.archive-module li a:hover { color: #ab3b51; }
+
+/* Acymailling Module */ 
+a.acymailing_togglemodule {
+	background: url(../images/grad.png) repeat-x left top #be3955;
+	border: 1px solid #c30021;
+}
+
+/* Live Support ---*/
+.live-support-actions a.email {
+	background-image: url(../images/icons/icon-email.png);
+}
+
+.live-support-actions a.chat {
+	background-image: url(../images/icons/icon-chat.png);
+}
+
+.live-support-actions a.call {
+	background-image: url(../images/icons/icon-call.png);
+}
+
+/* Connect with us ---*/
+ul.ja-social-list li.facebook a {
+	background-image: url(../images/icons/icon-facebook.png);
+}
+
+ul.ja-social-list li.twitter a {
+	background-image: url(../images/icons/icon-twitter.png);
+}
+
+ul.ja-social-list li.rss a {
+	background-image: url(../images/icons/icon-rss.png);
+}
+
+ul.ja-social-list li.flickr a {
+	background-image: url(../images/icons/icon-flickr.png);
+}
+
+/* Our Brand's Address ---*/
+.brand-point:hover {
+	background-image: url(../images/brand-point-hover.png);
+}
+
+/* KUNENA
+----------------------------------------------------------------------------------------------- */
+/* Form elements ---*/
+#Kunena .button,
+#Kunena .kbutton,
+#Kunena input[type="button"],
+#Kunena button {
+	background: url(../images/grad.png) repeat-x left top #be3955;
+	border-color:  #c30021;
+}
+
+#Kunena #ktab ul.menu li a:hover,
+#Kunena #ktab ul.menu li a:focus {
+	background-color: #c30021;
+}
+
+#Kunena .kheader h2 {
+	border-left-color: #ab3b51;
+}
+
+#Kunena .kpagination a:hover{ border-color: #ab3b51; background-color: #ab3b51; }
+
+.kprofileboxcnt .k_guest b { color: #ab3b51; }
+
+#Kunena div.kthead-title a:hover,
+#Kunena div.kthead-title a:focus,
+#Kunena div.kthead-title a:active {
+	color: #ab3b51;
+}
+
+#Kunena div#khistory tr.ksth a { color: #ab3b51; }
+
+#Kunena dl.tabs dt:hover { color: #ab3b51; }
+
+#finder-search fieldset.word a.btn:hover {
+  background: #ab3b51;
+  color: #fff;
+}
+
+/* Style for Tag J3x */
+div.tag-category ul li h3 a:hover,
+div.tag-category ul li h3 a:active,
+div.tag-category ul li h3 a:focus {
+	color: #ab3b51;
+}
+
+div.tagspopular ul li a {
+	border: 1px solid #ab3b51;
+}
+
+div.tagssimilar ul li a:hover, 
+div.tagssimilar ul li a:active, 
+div.tagssimilar ul li a:focus {
+	color: #ab3b51;
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade" client="site">
+	<name>ja_t3_blank</name>
+	<version>2.5.8</version>
+	<creationDate>13 December 2013</creationDate>
+	<author>JoomlArt.com</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>http://www.joomlart.com</authorUrl>
+	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>	
+	<![CDATA[
+<p>The <strong>Joomlart T3 Framework</strong>  and <strong>JA T3 Blank Template</strong> have been updated for Joomla 2.5 and Joomla 3.2</p>
+
+<p>JA T3 Blank Template for Joomla 2.5 and Joomla 3.2 is the base template for JA T3 V2 Framework. If you are a developer and wish to use JA  T3 Framework to develop your own themes then its the right choice.</p>
+<p>With the JA T3 Blank Template it is easy to start developing templates right away.  But do not let the simplicity fool you, as JAT3 comes packed with power.  You now have the ability to use multiple themes simultaneously or mix and match them as you see fit.  And with the JA T3 Template Administration Panel, you can edit your files, upload your themes and customize your settings all in one window. Read more on our wiki.</p>
+</br>
+
+<p><strong>Resources :</strong></p>
+
+<p>
+<a href='http://www.joomlart.com/demo/#demo.t3.joomlart.com/joomla25' title='Demo' target='_blank' > Demo</a> |
+<a href='http://www.joomlart.com/forums/forumdisplay.php?241' title='forum' target='_blank' >Forum</a> |
+<a href='http://wiki.joomlart.com/wiki/JA_T3_Framework_2/Overview' title='T3 wiki' target='_blank' >T3 Framework Wiki</a> |
+<a href='http://update.joomlart.com' title='Updates' target='_blank' >Updates</a> |
+<a href='http://pm.joomlart.com/browse/JATCTIIIVIIJOOMLAIVI' title='Changelog' target='_blank' >JIRA</a> |
+<a href='http://www.joomlart.com/forums/downloads.php?do=cat&id=361' title='Downloads' target='_blank' >Downloads</a> </p>
+		]]>
+	
+	</description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>language</folder>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+		<folder>blocks</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_t3_blank.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_t3_blank.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+		<position>mega1</position>
+		<position>mega2</position>
+		<position>top-panel</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+		</fields>
+    </config>
+</extension>

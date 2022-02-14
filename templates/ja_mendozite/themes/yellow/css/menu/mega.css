@@ -1,0 +1,37 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* 0v - 0 and below
+-----------------------------------*/
+.ja-megamenu ul.level0 > li.active > a.mega {
+	background: url(../../images/grad.png) repeat-x left top #d9ab00;
+	border: 1px solid #d9ab00;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.over,
+.ja-megamenu ul.level1 li.active {
+	border-color: #d9ab00;
+	background: url(../../images/grad.png) repeat-x left top #d9ab00;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+
+/* Grouped --- */
+
+.megamenu p.readmore a {
+	background-image: url(../../images/readmore-hover.png);
+	color: #ecbd00;
+}

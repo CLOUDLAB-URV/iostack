@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------
+Originally developed by Patrick Griffiths and Dan Webb
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+---------------------------------------------------------
+NOTE: After a deep research, we decide to divide this
+CSS into 2 parts. The first part will define the layout.
+The second part will define the visual look for this menu.
+---------------------------------------------------------*/
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ja-cssmenu {
+	font-family: 'PT Sans',sans-serif;
+}
+
+#ja-cssmenu > li > a {
+	color: #fff;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #111;
+	border-left: 1px solid #333;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+#ja-cssmenu > li > a.sfhover { background: #000; }
+
+#ja-cssmenu > li.active > a {
+	background: url(../../images/grad.png) repeat-x left top #e55f43;
+	border: 1px solid #f54f27;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#ja-cssmenu > li.havechild > a > span.menu-title, 
+#ja-cssmenu > li.havechildsfhover > a > span.menu-title {
+	background-image: url(../../images/arrow3.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+#ja-cssmenu > li.active.havechild > a > span.menu-title,
+#ja-cssmenu > li.active.havechildsfhover > a > span.menu-title {
+	background-image: url(../../images/arrow2.png);
+}
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+	background: #000;
+	border-top: 0;
+	color: #333;
+	padding: 20px;
+}
+
+#ja-cssmenu li ul li,
+#ja-cssmenu li ul li.havesubchild { background: #101010; border: 1px solid #1a1a1a; margin-bottom: 8px; }
+
+#ja-cssmenu li ul li.sfhover,
+#ja-cssmenu li ul li.active, 
+#ja-cssmenu li ul li.havesubchild-active {
+	border-color: #f74f27;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9795b), to(#e65c3f)); /* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #f9795b, #e65c3f); /* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #f9795b, #e65c3f); /* IE 10 */
+	background: -ms-linear-gradient(top, #f9795b, #e65c3f); /* Opera 11.10+ */
+	background: -o-linear-gradient(top, #f9795b, #e65c3f);
+	background-color: #f9795b;
+}
+
+#ja-cssmenu li ul li.havesubchild {
+	background-image: url(../../images/arrow4.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+
+#ja-cssmenu li ul li.havesubchildsfhover,
+#ja-cssmenu li ul li.havesubchild.active {
+	background-image: url(../../images/arrow5.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+
+#ja-cssmenu li ul li.last { margin-bottom: 0; }
+
+#ja-cssmenu li ul li a { border: 0; color: #999; }
+
+#ja-cssmenu li ul li.sfhover > a,
+#ja-cssmenu li ul li.active > a,
+#ja-cssmenu li ul li.havesubchild-active > a  { color: #fff; }
+
+#ja-cssmenu li ul.havechild > a.mega > span.menu-title, 
+#ja-cssmenu li ul.havechildsfhover > a.mega > span.menu-title {
+	background-image: url(../../images/arrow4.png);
+}

@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Mendozite Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+body {}
+
+#frame {
+	background: #fff;
+	border: 0;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	border: 1px solid #E5E6E7;
+	padding: 20px;
+	width: 400px;
+}
+
+#frame h1 {
+  background: url(../images/logo.png) no-repeat center center;
+  color: #666;
+  display: block;
+  height: 35px;
+  margin: 0 auto;
+  padding: 5px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #fff;
+  text-indent: -999em;
+  width: 329px;
+  text-align: center;
+}
+
+#frame #form-login p {
+  padding: 5px 0;
+  vertical-align: middle;
+}
+
+#frame p.offline-message {
+  color: #666;
+}
+
+#frame #form-login label {
+  color: #666;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0;
+  width: 8em;
+  display: block;
+  float: left;
+}
+
+#frame #form-login #remember {
+  margin: 0;
+  vertical-align: middle;
+  width: auto;
+}
+
+#frame #form-login .inputbox {
+	border: 1px solid #eee;
+	background: #fff;
+	padding: 4px;
+	width: 15em;
+}
+
+#frame #form-login .inputbox:focus {
+	border-color: #bfbfbf;
+}
+
+#frame #form-login .button {
+	background: url(../images/grad.png) repeat-x left top #e55f43;
+	border: 1px solid #f54f27;
+	color: #fff;
+	font-size: 80%;
+	text-transform: uppercase;
+	padding: 4px;
+	cursor: pointer;
+	overflow: visible;
+	height: auto;
+}

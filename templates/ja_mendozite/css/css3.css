@@ -1,0 +1,138 @@
+.button, button,
+input[type="submit"], input[type="cancel"], input[type="reset"],
+a.acymailing_togglemodule,
+body.contentpane .button:hover,
+body.contentpane .button:focus,
+body.contentpane #ja-typo button:hover,
+body.contentpane #ja-typo button:focus,
+#login-form input.button:hover, #login-form input.button:focus,
+.acysubbuttons input.button:hover,
+.acysubbuttons input.button:focus  {
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #fafafa;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s; /* Firefox 4 */
+	-webkit-transition: all 0.5s; /* Safari and Chrome */
+	-o-transition: all 0.5s; /* Opera */
+}
+
+.button:hover, button:hover,
+input[type="submit"]:hover, input[type="cancel"]:hover, input[type="reset"]:hover ,
+a.acymailing_togglemodule:hover,
+a.acymailing_togglemodule:foucs,
+a.acymailing_togglemodule:active,
+body.contentpane .button:hover,
+body.contentpane .button:focus,
+body.contentpane #ja-typo button:hover,
+body.contentpane #ja-typo button:focus,
+#login-form input.button:hover, #login-form input.button:focus,
+.acysubbuttons input.button:hover,
+.acysubbuttons input.button:focus {
+	box-shadow: 1px 1px 1px #999;
+}
+
+#ja-search .inputbox {
+}
+
+#ja-search .button {
+	box-shadow: none;
+	border-radius: 0;
+}
+
+#ja-login > ul > li > a {
+	transition: all 1s;
+	-moz-transition: all 1s; /* Firefox 4 */
+	-webkit-transition: all 1s; /* Safari and Chrome */
+	-o-transition: all 1s; /* Opera */
+	box-shadow: 1px 1px 1px #fff;
+}
+
+#ja-login > ul > li > a:hover,
+#ja-login > ul > li > a:focus,
+#ja-login > ul > li > a:active {
+	box-shadow: 1px 1px 1px #999;
+}
+
+#ja-login > ul > li > a.show {
+	box-shadow: 1px 1px 1px #fff;
+}
+
+.items-row:last-child { border-bottom: 0; }
+
+#ja-search .inputbox {
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+}
+/* Paragraph ---*/
+.blog-featured .article-tools + p {
+	display: block;
+	height: 55px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* Typo Page ---*/
+pre, .code {
+	text-overflow: ellipsis;
+}
+
+.btn-rounded-icn, .btn-rounded-big, 
+.btn-rounded-sm, .btn-rounded-icn span, 
+.btn-rounded-big span, .btn-rounded-sm span {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+a.ja-typo-btn {
+	box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+a.ja-typo-btn-icn {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.typo a.btn-blue, .typo a.btn-red, 
+.typo a.btn-green, .typo a.btn-orange, 
+.typo a.btn-black, .typo a.btn-blue:link, 
+.typo a.btn-red:link, .typo a.btn-green:link, 
+.typo a.btn-orange:link, .typo a.btn-black:link, 
+a.btn-blue, a.btn-red, a.btn-green, 
+a.btn-orange, a.btn-black, a.btn-brown,
+a.btn-purple, a.btn-pink, a.btn-yellow {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* K2 Page ---*/
+.pagination ul li span.pagenav, .pagination ul li a.pagenav, ul.pagenav li a,
+.k2Pagination ul li span.pagenav, .k2Pagination ul li a.pagenav {
+	border-radius: 11px;
+}
+
+div.userItemViewUnpublished{
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+#search-form .collapse {
+	overflow: visible \9;
+	-webkit-transition: height .35s ease;
+	-moz-transition: height .35s ease;
+	-o-transition: height .35s ease;
+	transition: height .35s ease;
+}
+
+/* Fix only Opera---*/
+
+@media not all and (-webkit-min-device-pixel-ratio:0) {  
+    #ja-botsl1 .ja-box-right {
+    	right: 21px;
+    }
+}  
+
+.item-page .img-fulltext-none img {
+	max-width: none\9;
+	height: auto;
+	width: 100%\9;
+}

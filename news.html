@@ -16,32 +16,33 @@ var isRTL = false;
   <title>IOStack - News</title>
   <link href="news@format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
   <link href="news@format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/system/css/system.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/system/css/general.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/addons.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/layout.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/template.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/usertools.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/css3.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/css/menu/mega.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/css/typo.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/css/layout.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/css/template.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/css/css3.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/css/menu/mega.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/themes/blue/css/typo.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/themes/blue/css/template.css" type="text/css" />
-  <link rel="stylesheet" href="http://iostack.eu/templates/ja_mendozite/themes/blue/css/menu/mega.css" type="text/css" />
-  <script src="http://iostack.eu/media/system/js/mootools-core.js" type="text/javascript"></script>
-  <script src="http://iostack.eu/media/system/js/core.js" type="text/javascript"></script>
-  <script src="http://iostack.eu/media/system/js/mootools-more.js" type="text/javascript"></script>
-  <script src="http://iostack.eu/media/system/js/caption.js" type="text/javascript"></script>
-  <script src="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/js/core.js" type="text/javascript"></script>
-  <script src="http://iostack.eu/plugins/system/jat3/jat3/base-themes/default/js/menu/mega.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/addons.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/usertools.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/css3.css" type="text/css" />
+  <link rel="stylesheet" href="plugins/system/jat3/jat3/base-themes/default/css/menu/mega.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/css/typo.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/css/css3.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/css/menu/mega.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/themes/blue/css/typo.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/themes/blue/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="templates/ja_mendozite/themes/blue/css/menu/mega.css" type="text/css" />
+  <script src="media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="media/system/js/core.js" type="text/javascript"></script>
+  <script src="media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="media/system/js/caption.js" type="text/javascript"></script>
+  <script src="plugins/system/jat3/jat3/base-themes/default/js/core.js" type="text/javascript"></script>
+  <script src="plugins/system/jat3/jat3/base-themes/default/js/menu/mega.js" type="text/javascript"></script>
   <script type="text/javascript">
 window.addEvent('load', function() {
 				new JCaption('img.caption');
-			});window.addEvent('domready', function() {
+			});
+window.addEvent('domready', function() {
 			$$('.hasTip').each(function(el) {
 				var title = el.get('title');
 				if (title) {
